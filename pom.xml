@@ -12,6 +12,13 @@
 	<artifactId>achat</artifactId>
 	<version>1.0</version>
 	<name>achat</name>
+	<distributionMangement>
+	 <repository>
+	   <id>deploymentRepo</id>
+	   <name>Nexus Repository</name>
+	   <url>http://192.168.137.128:8081/repository/maven-releases/</url>
+	   </repository>
+	   </distributionMangement>
 	<description>Projet pour le module DevOps</description>
 	<properties>
 		<java.version>1.8</java.version>
